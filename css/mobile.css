@@ -1,0 +1,190 @@
+@media screen and (max-width: 769px) {
+  section>.container {
+    width: auto;
+  }
+
+  /* CSS banner */
+  .name {
+    font-size: 22px;
+  }
+
+  .position {
+    font-size: 12px;
+  }
+
+  .img-banner img {
+    object-fit: cover;
+  }
+
+  /* CSS navbar for mobile */
+  .nav-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .nav-content a,
+  .nav-content a:first-child {
+    border: none;
+    padding: 10px 15px;
+  }
+
+  .avatar {
+    display: none;
+  }
+
+  /* CSS about */
+
+  #target,
+  #personal-info {
+    padding: 50px 20px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  #target .container {
+    padding: 0;
+  }
+
+  #personal-info .container {
+    padding: 0;
+  }
+
+  /* CSS Job info */
+
+  .job-content {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+  }
+
+  .job-like {
+    flex-wrap: wrap;
+  }
+
+  .job-language,
+  .job-skill {
+    grid-column: 2 span;
+  }
+
+  /* CSS certificate */
+  #certificate img {
+    height: auto;
+    width: 100%;
+  }
+
+  .content-up {
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+  }
+
+  .certificate-detail {
+    flex-direction: column;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .first-detail {
+    margin-bottom: 20px;
+  }
+
+  .third-detail {
+    border-bottom: none;
+  }
+
+  .second-detail {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  /* CSS project */
+
+  .project-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item-description {
+    grid-template-columns: 60px auto;
+    gap: 10px;
+  }
+
+  .item2 {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  /* CSS footer */
+  #footer span {
+    display: none;
+  }
+
+  /* ********************************************************************* */
+  /* CSS DIGITAL CV */
+  .content-charter {
+    grid-template-columns: auto;
+  }
+
+  .padding-bottom {
+    padding-bottom: 1em !important;
+  }
+
+  .goal-item {
+    grid-template-columns: auto;
+  }
+
+  .scopes {
+    grid-area: 2/1;
+  }
+
+  .scopes-item {
+    padding-right: 0;
+  }
+
+  .scopes-detail {
+    flex-direction: column;
+  }
+
+  .team-item {
+    grid-template-columns: auto;
+    padding: 0 15px;
+  }
+
+  .team-item svg {
+    margin: 0;
+  }
+
+  .primary-item {
+    flex-direction: column;
+  }
+
+  .primary-item svg {
+    height: 26px;
+    width: 26px;
+  }
+
+  .primary-item p {
+    align-self: self-start;
+  }
+
+  .timeline {
+    grid-area: 5/-2;
+  }
+
+  .timeline-item {
+    grid-template-columns: auto;
+    justify-content: start;
+    padding: 0 10px;
+  }
+
+  .circle-purple {
+    width: 55px;
+    margin: 0;
+  }
+}

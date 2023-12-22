@@ -1,0 +1,126 @@
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  section>.container {
+    width: auto;
+  }
+
+  /* CSS navbar for tablet */
+  .nav-content a {
+    padding: 20px 20px !important;
+  }
+
+  .images {
+    display: none;
+  }
+
+  /* CSS Job info */
+
+  .job-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .detail-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+  }
+
+  .job-like {
+    flex-wrap: wrap;
+  }
+
+  /* CSS certificate */
+  #certificate img {
+    height: auto;
+    width: 100%;
+  }
+
+  .certificate-detail {
+    flex-direction: column;
+  }
+
+  .third-detail {
+    width: 50%;
+  }
+
+  /* CSS project */
+  .item-description {
+    grid-template-columns: 60px auto;
+    gap: 10px;
+  }
+
+  .item2 {
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 0;
+  }
+
+  .item2 span:first-child {
+    grid-row: 2 span;
+    align-self: self-start;
+    margin-right: 5px;
+  }
+
+  .bg-blue {
+    padding: 5px 5px;
+  }
+
+
+  /* ********************************************************************* */
+  /* CSS DIGITAL CV */
+  .content-charter {
+    grid-template-columns: 1fr;
+  }
+
+  .padding-bottom {
+    padding-bottom: 1em !important;
+  }
+
+  .goal-item {
+    grid-template-columns: 1fr;
+  }
+
+  .scopes {
+    grid-area: 2/1;
+  }
+
+  .scopes-detail {
+    flex-direction: column;
+  }
+
+  .team-item {
+    grid-template-columns: auto;
+    padding: 0 15px;
+  }
+
+  .team-item svg {
+    margin: 0;
+  }
+
+  .primary-item {
+    flex-direction: column;
+  }
+
+  .primary-item svg {
+    height: 28px;
+    width: 28px;
+  }
+
+  .primary-item p {
+    align-self: self-start;
+  }
+
+  .timeline {
+    grid-area: 5/-2;
+  }
+
+  .timeline-item {
+    grid-template-columns: auto;
+    justify-content: start;
+    padding: 0 10px;
+  }
+
+  .circle-purple {
+    width: 55px;
+    margin: 0;
+  }
+}

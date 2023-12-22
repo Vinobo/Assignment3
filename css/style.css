@@ -1,0 +1,575 @@
+* {
+    margin: 0px;
+}
+
+body {
+    margin: 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #212529;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+}
+
+section>.container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+/* CSS INDEX */
+
+/* CSS for all icon */
+i {
+    color: #199cdb;
+}
+
+/* CSS banner */
+#banner {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+#banner h1 {
+    margin-bottom: 5px;
+}
+
+.position {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.img-banner {
+    height: 100%;
+}
+
+.img-banner img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+}
+
+.text-banner {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    color: #f7f7f7;
+    width: 80%;
+}
+
+.name {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+
+/* CSS nav bar */
+#nav-bar {
+    text-align: center;
+    background-color: white;
+}
+
+.nav-content {
+    display: inline-block;
+}
+
+.nav-content a {
+    border-right: 1px solid #ddd;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    border-collapse: collapse;
+    color: black;
+}
+
+.nav-content a:first-child {
+    border-left: 1px solid #ddd;
+}
+
+.avatar {
+    padding: 20px 200px !important;
+}
+
+.nav-content img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid #f7f7f7;
+    border-style: double;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 260%);
+}
+
+/* CSS about */
+/* #about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    line-height: 1.7;
+} */
+
+#target,
+#personal-info {
+    padding: 80px 50px;
+}
+
+#target p {
+    color: grey;
+    font-weight: 500;
+}
+
+#personal-info {
+    background-color: #eee;
+}
+
+#personal-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#personal-info span {
+    color: #333;
+    font-weight: bold;
+}
+
+.info li {
+    color: grey;
+    font-weight: 500;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.icon-personal {
+    margin-top: 30px;
+}
+
+/* CSS Job info */
+#job-info {
+    background-color: #fff;
+}
+
+.job-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding: 20px 0;
+    gap: 30px;
+}
+
+.job-details {
+    border: 1px solid #ddd;
+}
+
+.detail-container {
+    padding: 40px 30px 80px 30px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 50px;
+    align-items: end;
+}
+
+.job-title {}
+
+.job-icon {
+    justify-self: end;
+}
+
+#job-info i {
+    font-size: 38px;
+    color: #333;
+}
+
+.job-description {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    line-height: 1.7;
+}
+
+.circle-blue {
+    height: 12px;
+    width: 12px;
+    background-color: #199cdb;
+    border-radius: 50%;
+}
+
+#job-info h1 {
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+#job-info h2 {
+    font-size: 16px;
+}
+
+.text-italic {
+    font-style: italic;
+    margin: 5px 0 15px 0;
+    font-size: 14px;
+}
+
+.bg-blue {
+    padding: 5px 15px;
+    background-color: #199cdb;
+    border-radius: 10px;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+.job-like {
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.icon-like {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#like i {
+    padding: 20px;
+    font-size: larger;
+    border: 1px solid #199cdb;
+    border-radius: 50%;
+    color: #199cdb;
+    margin-bottom: 20px;
+}
+
+.job-language,
+.job-skill {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dash-gray span {
+    background-color: #eee;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+
+.dash-blue {
+    background-color: #199cdb !important;
+}
+
+/* CSS certificate */
+#certificate .container {
+    padding: 40px 20px;
+}
+
+.certificate-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 20px;
+}
+
+.content-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #d6c08d;
+    padding-bottom: 30px;
+}
+
+.second-detail {
+    border-left: 1px solid #d6c08d;
+    padding-left: 10px;
+}
+
+#certificate img {
+    height: 130px;
+    width: 220px;
+}
+
+#certificate h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+#certificate p {
+    line-height: 1.7;
+    color: grey;
+}
+
+.certificate-detail {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+/* CSS project */
+#project .container {
+    padding: 40px 20px;
+}
+
+.project-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-details {
+    border: 1px solid #ddd;
+}
+
+#project img {
+    height: auto;
+    width: 100%;
+}
+
+.item1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.item2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.item2 i {
+    color: grey;
+    font-weight: 600;
+}
+
+.item1,
+.item2 {
+    padding: 20px;
+}
+
+.item1,
+.item2,
+.item3 {
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.item3 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    color: grey;
+    border-bottom: none;
+}
+
+.item-description {
+    display: grid;
+    grid-template-columns: 80px auto;
+    padding: 10px 5px;
+    border-bottom: 1px solid #ddd;
+    border-collapse: collapse;
+    line-height: 1.7;
+    gap: 20px;
+}
+
+.item-description:last-child {
+    border-bottom: none;
+}
+
+/* CSS footer */
+#footer .container {
+    padding: 40px 20px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.footer-content li {
+    display: inline-block;
+    margin: 0 10px;
+    color: grey;
+}
+
+#footer i {
+    font-size: 30px;
+    color: #199cdb;
+    text-align: center;
+}
+
+.footer-content li div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ********************************************************************* */
+/* CSS DIGITAL CV */
+
+#project-charter h1 {
+    font-size: 32px;
+    color: #0000ff;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#project-charter h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.content-charter {
+    display: grid;
+    grid-template-columns: 50% 25% auto;
+    padding: 20px;
+    background-color: #0000ff;
+    width: 100%;
+    gap: 20px;
+}
+
+.bg-item {
+    background-color: #f0f8ff;
+}
+
+.padding-bottom {
+    padding-bottom: 50px !important;
+}
+
+/* CSS GOAL */
+.goal-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid #ccc;
+    margin: 20px;
+}
+
+.goal-item svg {
+    grid-row: 2 span;
+    justify-self: center;
+    margin: 0 60px 0 40px;
+}
+
+.goal-item p {
+    margin-bottom: 5px;
+}
+
+/* CSS TEAM */
+.team-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.team-item svg {
+    grid-row: 2 span;
+    margin: 10px 20px;
+    justify-self: center;
+}
+
+/* CSS TIMELINE */
+.timeline {
+    grid-row: 2 span;
+}
+
+.timeline-item {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #79cbd1;
+    border-bottom-style: dotted;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.circle-purple {
+    font-size: 26px;
+    padding: 5px 10px;
+    border: 3px solid #68676c;
+    border-radius: 50%;
+    background-color: #9e88ff;
+    color: #eef0ff;
+    margin: 10px;
+}
+
+.timeline-item h2 {
+    margin-bottom: 10px !important;
+}
+
+.timeline-item p {
+    padding-bottom: 10px;
+}
+
+/* CSS SCOPES */
+.scopes-detail {
+    display: flex;
+    padding: 0 15px;
+    gap: 30px;
+}
+
+.scopes-item {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    gap: 20px;
+}
+
+.scopes-item span {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+/* CSS PRIMARY */
+.primary-detail {
+    padding: 0 15px;
+}
+
+.primary-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
